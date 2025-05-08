@@ -2,7 +2,7 @@
 
 ## 📌 Descripción
 
-Este proyecto es un **generador de contraseñas aleatorias** que permite crear contraseñas seguras para proteger cuentas de internet. Puedes personalizar la longitud de la contraseña y los tipos de caracteres utilizados.
+Este proyecto es un **generador de contraseñas aleatorias** que permite crear contraseñas seguras para proteger cuentas de internet. Puedes personalizar la longitud de la contraseña y los tipos de caracteres utilizados, creado por **Maik y Euge**.
 
 ## 🌟 Características
 
