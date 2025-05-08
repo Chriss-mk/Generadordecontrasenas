@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador De Contraseñas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="flex-container">
+                <h1>Generador de contraseñas aleatorias</h1>
+                <p>Cree contraseñas seguras para proteger sus cuentas de internet</p>
+    
+                <div class="generador-container">
+                    <div class="contenedor-de-contraseña">
+                        <input type="text" id="resultado">
+                        <label for=""></label>
+                        <div class="fa-solid fa-rotate-right" id="btn-refresh"></div>
+                        <div class="seguridad-container">
+                            <span id="seguridad-valor">Normal</span>
+                        </div>
+                    </div>
+                    <div class="btn-copiar-container">
+                        <a id="btn-copiar">Copiar</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container-2">
+                <div class="longitud-container">
+                    <span class="textLogitud">Longitud de la contraseña:</span>
+                    <span id="longitud-valor">12</span>
+                </div>
+                <div class="btns-container">
+                    <button class="btn-menos">-</button>
+                    <div class="input-range-container">
+                        <input type="range" id="length" min="1" max="50" value="12">
+                    </div>
+                    <button class="btn-mas">+</button>
+                </div>
+            </div>
+    
+            <div class="container-3">
+                <div class="caracteres-container">
+                    <span>Caracteres usados:</span>
+                </div>
+                <div class="caracteres-inputs">
+                    <div class="input-container">
+                        <input type="checkbox" name="ABC" id="ABC" checked>
+                        <label for="ABC">ABC</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="checkbox" name="abc" id="abc" checked>
+                        <label for="abc">abc</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="checkbox" name="123" id="123" checked>
+                        <label for="123">123</label>
+                    </div>
+                    <div class="input-container">
+                        <input type="checkbox" name="#$&" id="#$&">
+                        <label for="#$&">#$&</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

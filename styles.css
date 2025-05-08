@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("foto.png");
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 3rem;
+    color: #00d1ff;
+    margin-bottom: 0.5rem;
+    text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3); /* Sombra suave y difusa hacia abajo */
+}
+p {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #004e5f;
+}
+.container {
+    background-color: rgba(249, 249, 249, 0.6); /* Color con transparencia */
+    backdrop-filter: blur(10px); /* Ajusta el desenfoque */
+    padding: 5rem;
+    border-radius: 10px; /* Opcional: bordes redondeados */
+}
+.generador-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    width: 40rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+.contenedor-de-contraseña {
+    position: relative;
+    
+}
+#resultado {
+    padding: 0.4rem 1rem;
+    width: 27rem;
+    border-color: #00d1ff;
+    color: #004e5f;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+}
+
+#btn-refresh {
+    position: absolute;
+    left: 404px;
+    top: 11px;
+    color: #028baa;
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+#btn-refresh:hover {
+    color: #03cefb;
+}
+
+.rotated {
+    transform: rotate(360deg);
+}
+
+#btn-copiar {
+    background-color: #00d1ff;
+    width: 7rem;
+    height: 36px;
+    font-weight: bold;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    color: rgb(244, 250, 255);
+    transition:all 0.3s ease;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#btn-copiar:hover {
+    background-color: #00abd2;
+}
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 37rem;
+}
+.longitud-container {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    width: 200px;
+    color: #004e5f;
+}
+#longitud-valor {
+    color: #028baa;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: 1.5rem;
+}
+.btns-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.btns-container button {
+    padding: 0.4rem;
+    width: 45px;
+    height: 45px;      
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    border: 2px solid #00d1ff;
+    font-size: 1.3rem;
+    color: #00d1ff;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+}
+
+.btns-container button:hover {
+    background-color: rgb(251, 251, 255);
+    color: #004e5f; 
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3); 
+}
+
+.container-3 {
+    display: flex;
+    gap: 3rem;
+    margin: 30px auto;
+    width: 37rem;
+}
+.caracteres-container {
+    color: #004e5f;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
+.caracteres-inputs {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px; 
+    width: 100%; 
+}
+
+.input-container {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #004e5f;
+}
+
+input[type="checkbox"] { 
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #00d1ff; 
+}
+
+.seguridad-container span {
+    position: absolute;
+    top: 7px;
+    left: 280px;
+    text-align: center;
+    width: 110px;
+    color: #ffff;
+    padding: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-left: 5px;
+    transition: color 0.3s ease;
+}
+
